@@ -1,0 +1,50 @@
+body{
+    background-color: whitesmoke;
+}
+
+
+
+
+.board{
+    -webkit-border-radius: 4px 3px 6px 10px;
+    -moz-border-radius: 4px 3px 6px 10px;
+    -o-border-radius: 4px 3px 6px 10px;
+    border-radius: 4px 3px 6px 10px;
+    background-color: rgb(82,96,112);
+    float: right;
+    height: 525px;
+    width: 450px
+}
+
+.horbutton{
+    display: flex;
+    justify-content: center;
+}
+.p5Canvas{
+    -webkit-border-radius: 4px 3px 6px 10px;
+    -moz-border-radius: 4px 3px 6px 10px;
+    -o-border-radius: 4px 3px 6px 10px;
+    border-radius: 4px 3px 6px 10px;
+    
+}
+.subtit{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    margin-left: 40%;
+}
+.stats{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    margin-left: 40%;
+}
+
+.chartbox{
+    position: absolute;
+    width: 400px;
+    margin-top: 600px; 
+    margin-left: 30%;
+
+}
+
